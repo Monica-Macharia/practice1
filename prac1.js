@@ -9,7 +9,7 @@
          console.log(key)
      }
  }
-
+//high-order function
  function objholder(flows){
         cat={name: "rosee",gender: "female", height: 78}
         flows(cat);
