@@ -65,3 +65,12 @@ function feeder(fun){
     fun(books)
 }
 feeder(loopthrough);
+
+dog=["hut", "hunt", "gut", "jug","tall"]
+
+function looped(arr){
+    const itemy = arr.map((item)=>item.toUpperCase())
+    console.log(itemy)
+}
+looped(dog);
+console.log(dog);
