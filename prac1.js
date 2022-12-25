@@ -74,3 +74,14 @@ function looped(arr){
 }
 looped(dog);
 console.log(dog);
+
+function finder(carni){
+   const search = carni.find((element)=> element === "gut")
+  
+    console.log(search.toUpperCase())
+}
+   
+
+
+
+finder(dog)
