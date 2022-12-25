@@ -85,3 +85,29 @@ function finder(carni){
 
 
 finder(dog)
+
+console.log("Hello".substring(1, 3))
+
+//.reduce()
+//we need a reducer function that returns the accumulator.
+//we need another function that uses.reduce() and the accumulator alongside the element
+
+function reducer(accumulator, element){
+    console.log(accumulator, element)
+  let amount = element.remaining
+ 
+ return accumulator += amount
+
+  
+}
+
+
+let final = books.reduce(reducer, 0)
+    
+console.log(final)
+
+ books.forEach(function(item){
+    console.log(item.name.toUpperCase())
+})
+
+console.log(books.toUpperCase(books.name))
