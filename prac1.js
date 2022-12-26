@@ -68,6 +68,8 @@ feeder(loopthrough);
 
 dog=["hut", "hunt", "gut", "jug","tall"]
 
+
+
 function looped(arr){
     const itemy = arr.map((item)=>item.toUpperCase())
     console.log(itemy)
@@ -102,12 +104,42 @@ function reducer(accumulator, element){
 }
 
 
-let final = books.reduce(reducer, 0)
+// let final = books.reduce(reducer, 0)
     
-console.log(final)
+// console.log(final)
 
- books.forEach(function(item){
-    console.log(item.name.toUpperCase())
-})
+//  books.forEach(function(item){
+//     console.log(item.name.toUpperCase())
+// })
 
-console.log(books.toUpperCase(books.name))
+// console.log(books.toUpperCase(books.name))
+["for", "tall", "jud"].indexOf("tall");
+
+const record = [
+    { year: "2015", result: "W"},
+    { year: "2014", result: "N/A"},
+    { year: "2013", result: "W"}
+ 
+  ]
+  function finders(array){
+    array.filter(function(item){
+        if(item.result === "W"){
+            console.log(item.year);
+        }})
+        
+  }
+  finders(record)
+//   function finders(arrays){
+//     arrays.find(function (arrays){
+//         if (arrays.result === "W"){
+//             console.log(arrays)
+//             console.log(arrays.year)
+//         }
+//         else{
+//             console.log("undefined")
+//         }
+
+//     })
+//   }
+
+//   finders(record);
