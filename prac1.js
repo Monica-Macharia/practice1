@@ -121,6 +121,16 @@ const record = [
     { year: "2013", result: "W"}
  
   ]
+  function mapper(array){
+    array.map(function(element){
+        if(element.result === "W"){
+       console.log(Number.parseInt(element.year, 10) + 10)}
+       else{
+          console.log(record)
+       }
+    })
+  }
+  mapper(record)
   function finders(array){
     array.filter(function(item){
         if(item.result === "W"){
