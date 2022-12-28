@@ -160,4 +160,7 @@ let trees2= [9, ...trees, 2 ]
 
 console.log(trees2);
 
-let 
+let obj1={age: 20, gender: "female"}
+let obj2={...obj1, city: "nairobi"}
+
+console.log(obj2);
