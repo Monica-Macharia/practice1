@@ -153,3 +153,11 @@ const record = [
 //   }
 
 //   finders(record);
+
+let trees= [3,5,6,7,8]
+let trees2= [9, ...trees, 2 ]
+
+
+console.log(trees2);
+
+let 

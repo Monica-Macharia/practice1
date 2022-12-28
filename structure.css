@@ -1,0 +1,51 @@
+body{
+    text-align: center;
+}
+img#bride{
+    border-radius: 50%;
+    height: 20%;
+    width: 20%;
+    position: relative;
+    margin-left:-35%;
+}
+h3#name{
+    position: relative;
+    margin-left:-35%; 
+}
+h3#names{
+    position: absolute;
+    margin-left: 72%;
+    margin-top: -10%; 
+   
+}
+p#para1{
+    position: relative;
+    margin-left: -40%;
+}
+p#para2{
+    position: relative;
+    margin-left: 50%;
+    margin-top: -7.5%; 
+}
+img#groom{
+    border-radius: 50%;
+    max-height: 30%;
+    max-width: 20%;
+    position: absolute;
+    margin-top: -25%;
+    margin-left: 15%;
+}
+div#menu{
+    overflow: auto;
+  white-space: nowrap;
+}
+div#menu h3{
+    display: inline-block;
+  
+    text-align: center;
+    padding: 14px;
+    text-decoration: none;
+}
+p#pace{
+    line-height: 2;
+}
